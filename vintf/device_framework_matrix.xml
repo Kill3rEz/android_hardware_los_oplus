@@ -1,5 +1,13 @@
 <compatibility-matrix version="4.0" type="framework">
     <hal format="aidl" optional="true">
+        <name>vendor.aac.hardware.richtap.vibrator</name>
+        <version>2</version>
+        <interface>
+            <name>IRichtapVibrator</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.appradioaidl</name>
         <version>1</version>
         <interface>
@@ -84,7 +92,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.charger</name>
-        <version>1-10</version>
+        <version>1-11</version>
         <interface>
             <name>ICharger</name>
             <instance>default</instance>
@@ -124,7 +132,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.display.MixLut3D</name>
-        <version>1</version>
+        <version>1-2</version>
         <interface>
             <name>IMixLut3D</name>
             <instance>default</instance>
@@ -185,6 +193,14 @@
         <version>1.0</version>
         <interface>
             <name>ISensorFeature</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.oplus.hardware.oplusvibrator</name>
+        <version>2</version>
+        <interface>
+            <name>IOplusVibrator</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -333,6 +349,14 @@
         <version>1</version>
         <interface>
             <name>IUrcc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.oplus.hardware.vibrator</name>
+        <version>1</version>
+        <interface>
+            <name>ILinearMotorVibrator</name>
             <instance>default</instance>
         </interface>
     </hal>
