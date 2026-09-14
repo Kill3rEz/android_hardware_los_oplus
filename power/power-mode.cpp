@@ -11,6 +11,9 @@
 
 #include <OplusTouchConstants.h>
 
+#include <cerrno>
+#include <cstdlib>
+
 using aidl::android::hardware::power::Mode;
 using aidl::vendor::oplus::hardware::touch::IOplusTouch;
 
@@ -39,11 +42,28 @@ bool setDeviceSpecificMode(Mode type, bool enabled) {
             const std::string instance = std::string() + IOplusTouch::descriptor + "/default";
             std::shared_ptr<IOplusTouch> oplusTouch = IOplusTouch::fromBinder(
                     ndk::SpAIBinder(AServiceManager_waitForService(instance.c_str())));
+            if (oplusTouch == nullptr) {
+                LOG(ERROR) << "Failed to get " << instance;
+                return true;
+            }
+
             LOG(INFO) << "Power mode: " << toString(type) << " isDoubleTapEnabled: " << enabled;
 
-            oplusTouch->touchReadNodeFile(OplusTouchConstants::DEFAULT_TP_IC_ID,
-                                          OplusTouchConstants::DOUBLE_TAP_INDEP_NODE, &tmp);
-            contents = std::stoi(tmp, nullptr, 16);
+            if (!oplusTouch->touchReadNodeFile(OplusTouchConstants::DEFAULT_TP_IC_ID,
+                                               OplusTouchConstants::DOUBLE_TAP_INDEP_NODE, &tmp)
+                         .isOk()) {
+                LOG(ERROR) << "Failed to read double tap node";
+                return true;
+            }
+
+            errno = 0;
+            char* end = nullptr;
+            const long parsed = std::strtol(tmp.c_str(), &end, 16);
+            if (end == tmp.c_str() || errno == ERANGE) {
+                LOG(ERROR) << "Unparseable double tap node contents: '" << tmp << "'";
+                return true;
+            }
+            contents = static_cast<int>(parsed);
 
             if (enabled) {
                 contents |= OplusTouchConstants::DOUBLE_TAP_GESTURE;
