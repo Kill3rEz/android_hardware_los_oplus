@@ -4,6 +4,12 @@
 //
 
 soong_namespace {
+    imports: [
+        "kernel/oneplus/sm8750-modules",
+        "hardware/qcom-caf/sm8750",
+        "vendor/oneplus/sm8750-common",
+        "hardware/google/pixel/kernel_headers",
+    ],
 }
 
 prebuilt_hidl_interfaces {

@@ -1,3 +1,14 @@
+# PenguinOS: Lineage Touch HAL domain. Declared here for the osm device tree's
+# shipped vendor.lineage.touch-service.oplus; the hal_lineage_touch attribute +
+# service are provided by vendor/aospa/sepolicy.
+type hal_lineage_touch_default, domain;
+hal_server_domain(hal_lineage_touch_default, hal_lineage_touch)
+
+type hal_lineage_touch_default_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(hal_lineage_touch_default)
+
+binder_call(hal_lineage_touch_default, servicemanager)
+
 allow hal_lineage_touch_default hal_oplus_touch_aidl_service:service_manager find;
 
 binder_call(hal_lineage_touch_default, hal_oplus_touch_aidl)
