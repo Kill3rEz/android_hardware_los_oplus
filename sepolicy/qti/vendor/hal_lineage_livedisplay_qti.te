@@ -1,1 +1,27 @@
+# PenguinOS: LiveDisplay QTI HAL domain. Upstream Lineage declares this in
+# device/lineage/sepolicy/qcom, which AOSPA does not wire in (it ships only the
+# lineage-health HAL sepolicy). Declare the domain here so the shipped
+# vendor.lineage.livedisplay-service.oplus can run. The hal_lineage_livedisplay
+# attribute + service are provided by vendor/aospa/sepolicy.
+type hal_lineage_livedisplay_qti, domain;
+hal_server_domain(hal_lineage_livedisplay_qti, hal_lineage_livedisplay)
+
+type hal_lineage_livedisplay_qti_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(hal_lineage_livedisplay_qti)
+
+binder_call(hal_lineage_livedisplay_qti, servicemanager)
+
+# Allow LiveDisplay HAL to use vendor-binder service
+vndbinder_use(hal_lineage_livedisplay_qti)
+
 allow hal_lineage_livedisplay_qti graphics_device:chr_file rw_file_perms;
+
+# PenguinOS: the LiveDisplay SDM backend connects to the QCOM display qservice to
+# initialize; without this it aborts "Failed to initialize SDM backend" and crash-loops
+# (exited 4 times before boot completed -> sys.init.updatable_crashing -> bootloop).
+# Upstream Lineage allows this in device/lineage/sepolicy/qcom/dynamic, but (a) AOSPA
+# doesn't wire that dir in and (b) it targets the generic 'qdisplay_service' type whereas
+# SM8750 registers 'vendor_qdisplay_service' (served by hal_graphics_composer_default).
+allow hal_lineage_livedisplay_qti vendor_qdisplay_service:service_manager find;
+binder_call(hal_lineage_livedisplay_qti, hal_graphics_composer_default)
+get_prop(hal_lineage_livedisplay_qti, vendor_display_prop)
