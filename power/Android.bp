@@ -24,3 +24,23 @@ cc_library_static {
         "vendor.oplus.hardware.touch-V2-ndk",
     ],
 }
+
+// Device extension for vendor.aospa.power-service (aospaGestureVars target_power_feature_ext_lib).
+cc_library_static {
+    name: "power-feature-ext-oplus",
+    vendor: true,
+    srcs: [
+        "power-feature.cpp",
+    ],
+    header_libs: [
+        "vendor.oplus.hardware.touch-headers",
+    ],
+    shared_libs: [
+        "libbase",
+        "libbinder_ndk",
+        "vendor.aospa.power-V1-ndk",
+    ],
+    whole_static_libs: [
+        "vendor.oplus.hardware.touch-V2-ndk",
+    ],
+}
