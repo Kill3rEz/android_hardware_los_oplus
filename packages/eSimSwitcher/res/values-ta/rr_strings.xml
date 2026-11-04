@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="esim_toggle_dialog">eSIM-ஐச் செயற்படுத்தினால், SIM 2 முடக்கப்படும். இருப்பினும் செயற்படுத்தவா?</string>
+    <string name="esim_toggle_dialog_ok">"இயக்கு"</string>
+</resources>

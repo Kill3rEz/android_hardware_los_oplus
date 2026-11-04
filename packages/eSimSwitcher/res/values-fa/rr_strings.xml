@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="esim_toggle_dialog">اگر سیم مجازی را فعال کنید سیم‌کارت دوم شما غیرفعال خواهد شد. آیا ادامه می‌دهید؟</string>
+    <string name="esim_toggle_dialog_ok">"فعال کردن"</string>
+</resources>

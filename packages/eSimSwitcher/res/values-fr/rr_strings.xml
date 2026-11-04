@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="esim_toggle_dialog">La carte SIM 2 sera désactivée si vous activez l\'eSIM. L\'activer quand même ?</string>
+    <string name="esim_toggle_dialog_ok">"Activer"</string>
+</resources>

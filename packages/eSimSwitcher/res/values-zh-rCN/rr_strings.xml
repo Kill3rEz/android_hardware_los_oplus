@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="esim_toggle_dialog">启用 eSIM 后，SIM 2 将被禁用。是否仍然启用 eSIM ？</string>
+    <string name="esim_toggle_dialog_ok">"启用"</string>
+</resources>
