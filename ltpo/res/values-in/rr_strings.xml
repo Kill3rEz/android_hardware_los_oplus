@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Setelan LTPO</string>
+    <string name="ltpo_summary">Memungkinkan panel menyesuaikan laju refresh secara dinamis</string>
+    <string name="ltpo_enabled_title">Aktifkan fitur LTPO</string>
+    <string name="ltpo_enabled_summary">Mengaktifkan fitur kecepatan idle dan frame adaptif khusus perangkat untuk meningkatkan efisiensi</string>
+</resources>

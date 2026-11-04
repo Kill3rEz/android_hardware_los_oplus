@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO seaded</string>
+    <string name="ltpo_summary">Lubab paneelil kuvavärskendussagedust dünaamiliselt reguleerida</string>
+    <string name="ltpo_enabled_title">Luba LTPO funktsioonid</string>
+    <string name="ltpo_enabled_summary">Lubab seadmespetsiifilisi kohanduvaid tühikäigu- ja kaadrisageduse funktsioone efektiivsuse parandamiseks</string>
+</resources>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="esim_toggle_dialog_ok">"បើក"</string>
+    <string name="esim_toggle_dialog">SIM 2 នឹងត្រូវបិទ ប្រសិនបើអ្នកបើក eSIM។ បើកវាទោះជាយ៉ាងណា?</string>
 </resources>

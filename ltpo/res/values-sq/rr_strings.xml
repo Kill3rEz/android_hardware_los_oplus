@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Cilësimet LTPO</string>
+    <string name="ltpo_summary">Lejon panelin të rregullojë automatikisht shpejtësinë e rifreskimit</string>
+    <string name="ltpo_enabled_title">Aktivizo veçoritë LTPO</string>
+    <string name="ltpo_enabled_summary">Aktivizon veçori specifike të pajisjes për përshtatje të rifreskimit në gjendje pushimi dhe kornizë për përmirësimin e efiqencës</string>
+</resources>

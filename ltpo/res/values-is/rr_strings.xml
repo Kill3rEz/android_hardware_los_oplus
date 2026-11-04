@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO stillingar</string>
+    <string name="ltpo_summary">Leyfir skjánum að stilla endurnýjunartíðni kraftmikið</string>
+    <string name="ltpo_enabled_title">Virkja LTPO eiginleika</string>
+    <string name="ltpo_enabled_summary">Virkjar tækjasértæka aðlögunareiginleika fyrir aðgerðalausan skjá og rammatíðni til að bæta nýtni</string>
+</resources>

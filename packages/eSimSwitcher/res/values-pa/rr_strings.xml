@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="esim_toggle_dialog_ok">"ਚਾਲੂ ਕਰੋ"</string>
+    <string name="esim_toggle_dialog">ਜੇ ਤੁਸੀਂ eSIM ਚਾਲੂ ਕਰਦੇ ਹੋ ਤਾਂ SIM 2 ਬੰਦ ਹੋ ਜਾਵੇਗਾ। ਫਿਰ ਵੀ ਚਾਲੂ ਕਰਨਾ ਹੈ?</string>
 </resources>

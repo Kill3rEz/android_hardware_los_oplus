@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Axustes LTPO</string>
+    <string name="ltpo_summary">Permite que o panel axuste dinamicamente a frecuencia de actualización</string>
+    <string name="ltpo_enabled_title">Activar funcións LTPO</string>
+    <string name="ltpo_enabled_summary">Activa as funcións de frecuencia adaptativa en repouso e de fotogramas específicas do dispositivo para mellorar a eficiencia</string>
+</resources>

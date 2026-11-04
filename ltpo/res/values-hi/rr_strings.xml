@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO सेटिंग</string>
+    <string name="ltpo_summary">पैनल को रिफ़्रेश रेट अपने-आप बदलने की अनुमति देता है</string>
+    <string name="ltpo_enabled_title">LTPO सुविधाएं चालू करें</string>
+    <string name="ltpo_enabled_summary">बेहतर बैटरी के लिए डिवाइस-विशिष्ट अडैप्टिव आइडल और फ़्रेम रेट सुविधाएं चालू करता है</string>
+</resources>

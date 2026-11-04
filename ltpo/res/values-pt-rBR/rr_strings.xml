@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Configurações de LTPO</string>
+    <string name="ltpo_summary">Permite que o painel ajuste dinamicamente a taxa de atualização</string>
+    <string name="ltpo_enabled_title">Ativar recursos de LTPO</string>
+    <string name="ltpo_enabled_summary">Ativa recursos adaptativos de ociosidade e taxa de quadros específicos do dispositivo para melhorar a eficiência</string>
+</resources>

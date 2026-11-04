@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO ezarpenak</string>
+    <string name="ltpo_summary">Pantailak freskatze-tasa dinamikoki doitzea ahalbidetzen du</string>
+    <string name="ltpo_enabled_title">Gaitu LTPO ezaugarriak</string>
+    <string name="ltpo_enabled_summary">Gailuaren berezko ezaugarri egokitzaileak gaitzen ditu (ralentia eta fotogramen tasa), eraginkortasuna hobetzeko</string>
+</resources>

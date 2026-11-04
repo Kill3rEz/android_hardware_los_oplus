@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Izilungiselelo ze-LTPO</string>
+    <string name="ltpo_summary">Vumela i-panel ukuthi ilungise ngokuzenzakalelayo izinga lokuvuselela</string>
+    <string name="ltpo_enabled_title">Nika amandla izici ze-LTPO</string>
+    <string name="ltpo_enabled_summary">Ivumela izici ezithile zedivayisi zokulungisa ngokuzenzakalelayo ukuma kwesikrini nezinga lefremu ukuze kuthuthukiswe ukusebenza kahle</string>
+</resources>

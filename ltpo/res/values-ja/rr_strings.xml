@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO 設定</string>
+    <string name="ltpo_summary">パネルのリフレッシュレートを動的に調整できるようにします</string>
+    <string name="ltpo_enabled_title">LTPO 機能を有効にする</string>
+    <string name="ltpo_enabled_summary">効率を高めるため、デバイス固有の適応型アイドル機能とフレームレート機能を有効にします</string>
+</resources>

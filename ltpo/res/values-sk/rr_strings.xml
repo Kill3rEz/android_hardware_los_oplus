@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Nastavenia LTPO</string>
+    <string name="ltpo_summary">Umožňuje panelu dynamicky upravovať obnovovaciu frekvenciu</string>
+    <string name="ltpo_enabled_title">Zapnúť funkcie LTPO</string>
+    <string name="ltpo_enabled_summary">Zapína funkcie adaptívnej nečinnosti a obnovovacej frekvencie špecifické pre zariadenie na zlepšenie efektivity</string>
+</resources>

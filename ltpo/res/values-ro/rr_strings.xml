@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Setări LTPO</string>
+    <string name="ltpo_summary">Permite panoului să ajusteze dinamic rata de reîmprospătare</string>
+    <string name="ltpo_enabled_title">Activează funcțiile LTPO</string>
+    <string name="ltpo_enabled_summary">Activează funcțiile adaptive specifice dispozitivului pentru mersul în repaus și rata de cadre, pentru o eficiență mai bună</string>
+</resources>

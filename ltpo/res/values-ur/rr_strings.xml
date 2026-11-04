@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO ترتیبات</string>
+    <string name="ltpo_summary">پینل کو ریفریش ریٹ خودکار طور پر ایڈجسٹ کرنے کی اجازت دیتا ہے</string>
+    <string name="ltpo_enabled_title">LTPO خصوصیات فعال کریں</string>
+    <string name="ltpo_enabled_summary">کارکردگی بہتر بنانے کے لیے آلہ سے مخصوص ایڈaptive آئیڈل اور فریم ریٹ خصوصیات فعال کرتا ہے</string>
+</resources>

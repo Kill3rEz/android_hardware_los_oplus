@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">ការកំណត់ LTPO</string>
+    <string name="ltpo_summary">អនុញ្ញាតឱ្យផ្ទាំងកែសម្រួលអត្រាធ្វើបច្ចុប្បន្នភាពដោយស្វ័យប្រវត្តិ</string>
+    <string name="ltpo_enabled_title">បើកមុខងារ LTPO</string>
+    <string name="ltpo_enabled_summary">បើកមុខងារអត្រាស៊ុមនិងការសម្រាកតាមឧបករណ៍ជាក់លាក់ ដើម្បីបង្កើនប្រសិទ្ធភាព</string>
+</resources>

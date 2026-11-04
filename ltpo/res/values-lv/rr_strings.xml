@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO iestatījumi</string>
+    <string name="ltpo_summary">Ļauj panelim dinamiski pielāgot atsvaidzināšanas biežumu</string>
+    <string name="ltpo_enabled_title">Iespējot LTPO funkcijas</string>
+    <string name="ltpo_enabled_summary">Iespējo ierīcei specifiskas adaptīvās dīkstāves un kadru biežuma funkcijas, lai uzlabotu efektivitāti</string>
+</resources>

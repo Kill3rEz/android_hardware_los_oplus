@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Ρυθμίσεις LTPO</string>
+    <string name="ltpo_summary">Επιτρέπει στην οθόνη να προσαρμόζει δυναμικά τον ρυθμό ανανέωσης</string>
+    <string name="ltpo_enabled_title">Ενεργοποίηση δυνατοτήτων LTPO</string>
+    <string name="ltpo_enabled_summary">Ενεργοποιεί δυνατότητες προσαρμοστικής αδράνειας και ρυθμού καρέ, ειδικές για τη συσκευή, για καλύτερη απόδοση</string>
+</resources>

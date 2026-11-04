@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">ການຕັ້ງຄ່າ LTPO</string>
+    <string name="ltpo_summary">ອະນຸຍາດໃຫ້ໜ້າຈໍປັບອັດຕາການລີເຟຣຊໂດຍອັດຕະໂນມັດ</string>
+    <string name="ltpo_enabled_title">ເປີດຄຸນສົມບັດ LTPO</string>
+    <string name="ltpo_enabled_summary">ເປີດຄຸນສົມບັດອັດຕາເຟຣມ ແລະ ໂໝດພັກທີ່ປັບຕາມອຸປະກອນ ເພື່ອເພີ່ມປະສິດທິພາບ</string>
+</resources>

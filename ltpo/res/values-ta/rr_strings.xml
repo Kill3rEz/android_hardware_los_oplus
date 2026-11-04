@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO அமைப்புகள்</string>
+    <string name="ltpo_summary">திரை புதுப்பிப்பு விகிதத்தை தானாகச் சரிசெய்ய பேனலை அனுமதிக்கும்</string>
+    <string name="ltpo_enabled_title">LTPO அம்சங்களை இயக்கு</string>
+    <string name="ltpo_enabled_summary">செயல்திறனை மேம்படுத்த சாதனம் சார்ந்த தகவமைப்பு செயலற்ற நிலை மற்றும் பிரேம் வீத அம்சங்களை இயக்கும்</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO жөндөөлөрү</string>
+    <string name="ltpo_summary">Панелдин жаңылануу ылдамдыгын динамикалык түрдө жөнгө салууга уруксат берет</string>
+    <string name="ltpo_enabled_title">LTPO функцияларын иштетүү</string>
+    <string name="ltpo_enabled_summary">Натыйжалуулукту жогорулатуу үчүн түзмөккө тиешелүү адаптивдүү бош турган абал жана кадр ылдамдыгы функцияларын иштетет</string>
+</resources>

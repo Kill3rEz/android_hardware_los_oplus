@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="esim_toggle_dialog_ok">"සබල කරන්න"</string>
+    <string name="esim_toggle_dialog">ඔබ eSIM සක්‍රීය කළහොත් SIM 2 අක්‍රිය වේ. කෙසේ හෝ සක්‍රීය කරන්නද?</string>
 </resources>

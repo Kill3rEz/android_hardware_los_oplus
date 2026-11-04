@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO-instellingen</string>
+    <string name="ltpo_summary">Laat het scherm de vernieuwingsfrequentie dynamisch aanpassen</string>
+    <string name="ltpo_enabled_title">LTPO-functies inschakelen</string>
+    <string name="ltpo_enabled_summary">Schakelt apparaatspecifieke adaptieve functies voor inactiviteit en beeldsnelheid in om het energieverbruik te verbeteren</string>
+</resources>

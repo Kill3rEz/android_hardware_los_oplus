@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="esim_toggle_dialog_ok">"अन गर्नुहोस्"</string>
+    <string name="esim_toggle_dialog">तपाईंले eSIM सक्षम गर्नुभयो भने SIM 2 असक्षम हुनेछ। तैपनि सक्षम गर्ने हो?</string>
 </resources>

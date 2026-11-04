@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO-asetukset</string>
+    <string name="ltpo_summary">Antaa näytön säätää virkistystaajuuden dynaamisesti</string>
+    <string name="ltpo_enabled_title">Ota LTPO-ominaisuudet käyttöön</string>
+    <string name="ltpo_enabled_summary">Ottaa käyttöön laitekohtaiset mukautuvat lepo- ja kehystaajuusominaisuudet tehokkuuden parantamiseksi</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO-Einstellungen</string>
+    <string name="ltpo_summary">Ermöglicht dem Display, die Bildwiederholrate dynamisch anzupassen</string>
+    <string name="ltpo_enabled_title">LTPO-Funktionen aktivieren</string>
+    <string name="ltpo_enabled_summary">Aktiviert gerätespezifische adaptive Leerlauf- und Bildratenfunktionen zur Verbesserung der Effizienz</string>
+</resources>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="esim_toggle_dialog_ok">"ସକ୍ଷମ"</string>
+    <string name="esim_toggle_dialog">ଆପଣ eSIM ସକ୍ଷମ କଲେ SIM 2 ଅକ୍ଷମ ହୋଇଯିବ। ତଥାପି ସକ୍ଷମ କରିବେ କି?</string>
 </resources>

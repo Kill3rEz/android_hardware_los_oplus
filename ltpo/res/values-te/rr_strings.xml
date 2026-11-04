@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO సెట్టింగ్స్</string>
+    <string name="ltpo_summary">డిస్‌ప్లే రిఫ్రెష్ రేట్‌ను డైనమిక్‌గా సర్దుబాటు చేయడానికి అనుమతిస్తుంది</string>
+    <string name="ltpo_enabled_title">LTPO ఫీచర్‌లను ప్రారంభించండి</string>
+    <string name="ltpo_enabled_summary">సామర్థ్యాన్ని మెరుగుపరచడానికి పరికర-నిర్దిష్ట అడాప్టివ్ ఐడిల్ మరియు ఫ్రేమ్ రేట్ ఫీచర్‌లను ప్రారంభిస్తుంది</string>
+</resources>

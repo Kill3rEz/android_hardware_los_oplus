@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO parametrləri</string>
+    <string name="ltpo_summary">Panelə yeniləmə tezliyini dinamik olaraq tənzimləməyə imkan verir</string>
+    <string name="ltpo_enabled_title">LTPO funksiyalarını aktivləşdirin</string>
+    <string name="ltpo_enabled_summary">Səmərəliliyi artırmaq üçün cihaza xas uyğunlaşan boşdayanma və kadr tezliyi funksiyalarını aktivləşdirir</string>
+</resources>

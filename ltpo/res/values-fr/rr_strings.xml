@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Paramètres LTPO</string>
+    <string name="ltpo_summary">Permet au panneau d\'ajuster dynamiquement la fréquence de rafraîchissement</string>
+    <string name="ltpo_enabled_title">Activer les fonctions LTPO</string>
+    <string name="ltpo_enabled_summary">Active les fonctions adaptatives de veille et de fréquence d\'images propres à l\'appareil pour améliorer l\'efficacité</string>
+</resources>

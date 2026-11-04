@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Mga setting ng LTPO</string>
+    <string name="ltpo_summary">Hinahayaan ang panel na awtomatikong baguhin ang refresh rate</string>
+    <string name="ltpo_enabled_title">I-enable ang mga feature ng LTPO</string>
+    <string name="ltpo_enabled_summary">Ini-enable ang mga feature ng adaptive idle at frame rate na partikular sa device para mapabuti ang kahusayan</string>
+</resources>

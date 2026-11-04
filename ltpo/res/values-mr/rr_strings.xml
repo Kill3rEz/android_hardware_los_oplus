@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO सेटिंग्ज</string>
+    <string name="ltpo_summary">डिस्प्लेचा रिफ्रेश रेट आपोआप समायोजित होऊ देते</string>
+    <string name="ltpo_enabled_title">LTPO वैशिष्ट्ये सक्षम करा</string>
+    <string name="ltpo_enabled_summary">कार्यक्षमता सुधारण्यासाठी डिव्हाइस-विशिष्ट अ‍ॅडॅप्टिव्ह आयडल आणि फ्रेम रेट वैशिष्ट्ये सक्षम करते</string>
+</resources>

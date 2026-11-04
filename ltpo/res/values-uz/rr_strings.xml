@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO sozlamalari</string>
+    <string name="ltpo_summary">Panelga yangilanish chastotasini dinamik ravishda moslashtirishga ruxsat beradi</string>
+    <string name="ltpo_enabled_title">LTPO funksiyalarini yoqish</string>
+    <string name="ltpo_enabled_summary">Samaradorlikni oshirish uchun qurilmaga xos moslashuvchan bo‘sh turish va kadr chastotasi funksiyalarini yoqadi</string>
+</resources>

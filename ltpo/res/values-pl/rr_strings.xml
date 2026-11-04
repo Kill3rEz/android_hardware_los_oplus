@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Ustawienia LTPO</string>
+    <string name="ltpo_summary">Pozwala panelowi dynamicznie dostosowywać częstotliwość odświeżania</string>
+    <string name="ltpo_enabled_title">Włącz funkcje LTPO</string>
+    <string name="ltpo_enabled_summary">Włącza funkcje adaptacyjnego bezczynnego trybu i częstotliwości klatek specyficzne dla urządzenia, poprawiające wydajność</string>
+</resources>

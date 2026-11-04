@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Tetapan LTPO</string>
+    <string name="ltpo_summary">Membenarkan panel melaraskan kadar segar semula secara dinamik</string>
+    <string name="ltpo_enabled_title">Dayakan ciri LTPO</string>
+    <string name="ltpo_enabled_summary">Mendayakan ciri kadar bingkai dan rehat adaptif khusus peranti untuk meningkatkan kecekapan</string>
+</resources>

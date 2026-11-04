@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO կարգավորումներ</string>
+    <string name="ltpo_summary">Թույլ է տալիս էկրանին դինամիկ կարգավորել թարմացման հաճախականությունը</string>
+    <string name="ltpo_enabled_title">Միացնել LTPO գործառույթները</string>
+    <string name="ltpo_enabled_summary">Միացնում է սարքին հատուկ հարմարվողական պարապ և կադրերի հաճախականության գործառույթները՝ արդյունավետությունը բարձրացնելու համար</string>
+</resources>

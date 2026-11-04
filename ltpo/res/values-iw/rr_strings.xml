@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">הגדרות LTPO</string>
+    <string name="ltpo_summary">מאפשר לפאנל להתאים את קצב הרענון באופן דינמי</string>
+    <string name="ltpo_enabled_title">הפעלת תכונות LTPO</string>
+    <string name="ltpo_enabled_summary">מפעיל תכונות התאמה לקצב רענון ולמצב המתנה ייעודיות למכשיר, לשיפור היעילות</string>
+</resources>

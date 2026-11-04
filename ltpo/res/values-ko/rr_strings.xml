@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO 설정</string>
+    <string name="ltpo_summary">패널이 주사율을 동적으로 조절하도록 허용합니다</string>
+    <string name="ltpo_enabled_title">LTPO 기능 사용</string>
+    <string name="ltpo_enabled_summary">효율성 향상을 위해 기기별 적응형 유휴 및 프레임 속도 기능을 사용합니다</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO ସେଟିଂସ</string>
+    <string name="ltpo_summary">ପ୍ୟାନେଲକୁ ରିଫ୍ରେସ୍‌ ରେଟ୍‌ ଡାଇନାମିକ ଭାବରେ ସଜାଡ଼ିବାକୁ ଦିଏ</string>
+    <string name="ltpo_enabled_title">LTPO ବୈଶିଷ୍ଟ୍ୟ ସକ୍ଷମ କରନ୍ତୁ</string>
+    <string name="ltpo_enabled_summary">ଦକ୍ଷତା ବଢ଼ାଇବା ପାଇଁ ଡିଭାଇସ-ନିର୍ଦ୍ଦିଷ୍ଟ ଆଡାପ୍ଟିଭ୍‌ ଆଇଡଲ୍‌ ଏବଂ ଫ୍ରେମ୍‌ ରେଟ୍‌ ବୈଶିଷ୍ଟ୍ୟ ସକ୍ଷମ କରେ</string>
+</resources>

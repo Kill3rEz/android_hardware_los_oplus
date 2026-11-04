@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="esim_toggle_dialog_ok">"Овозможи"</string>
+    <string name="esim_toggle_dialog">SIM 2 ќе се исклучи ако овозможите eSIM. Дали сакате сепак да го овозможите?</string>
 </resources>

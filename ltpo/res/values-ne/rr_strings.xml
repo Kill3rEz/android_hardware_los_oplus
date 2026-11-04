@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO सेटिङहरू</string>
+    <string name="ltpo_summary">प्यानलले रिफ्रेस दर गतिशील रूपमा समायोजन गर्न दिन्छ</string>
+    <string name="ltpo_enabled_title">LTPO सुविधाहरू सक्षम गर्नुहोस्</string>
+    <string name="ltpo_enabled_summary">दक्षता सुधार गर्न यन्त्र-विशेष अनुकूली निष्क्रिय र फ्रेम दर सुविधाहरू सक्षम पार्छ</string>
+</resources>

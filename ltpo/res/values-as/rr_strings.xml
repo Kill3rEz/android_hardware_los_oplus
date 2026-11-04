@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO ছেটিং</string>
+    <string name="ltpo_summary">পেনেলে ৰিফ্ৰেশ ৰেট গতিশীলভাৱে সামঞ্জস্য কৰাৰ অনুমতি দিয়ে</string>
+    <string name="ltpo_enabled_title">LTPO সুবিধাসমূহ সক্ষম কৰক</string>
+    <string name="ltpo_enabled_summary">দক্ষতা বৃদ্ধিৰ বাবে ডিভাইচ-নিৰ্দিষ্ট অভিযোজিত নিষ্ক্ৰিয় আৰু ফ্ৰেম ৰেট সুবিধাসমূহ সক্ষম কৰে</string>
+</resources>

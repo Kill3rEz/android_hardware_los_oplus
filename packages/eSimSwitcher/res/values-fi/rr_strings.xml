@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="esim_toggle_dialog_ok">"Ota käyttöön"</string>
+    <string name="esim_toggle_dialog">SIM 2 poistetaan käytöstä, jos otat eSIM-kortin käyttöön. Otetaanko se silti käyttöön?</string>
 </resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Налады LTPO</string>
+    <string name="ltpo_summary">Дазваляе панэлі дынамічна змяняць частату абнаўлення</string>
+    <string name="ltpo_enabled_title">Уключыць функцыі LTPO</string>
+    <string name="ltpo_enabled_summary">Уключае адаптыўныя функцыі частаты абнаўлення і бяздзейнасці, спецыяльныя для прылады, для павышэння эфектыўнасці</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO সেটিংস</string>
+    <string name="ltpo_summary">প্যানেলকে রিফ্রেশ রেট গতিশীলভাবে সামঞ্জস্য করতে দিন</string>
+    <string name="ltpo_enabled_title">LTPO বৈশিষ্ট্য চালু করুন</string>
+    <string name="ltpo_enabled_summary">দক্ষতা বাড়াতে ডিভাইস-নির্দিষ্ট অ্যাডাপ্টিভ আইডল ও ফ্রেম রেট বৈশিষ্ট্য সক্রিয় করে</string>
+</resources>

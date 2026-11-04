@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">تنظیمات LTPO</string>
+    <string name="ltpo_summary">به پنل اجازه می‌دهد نرخ نوسازی را به‌صورت پویا تنظیم کند</string>
+    <string name="ltpo_enabled_title">فعال‌سازی قابلیت‌های LTPO</string>
+    <string name="ltpo_enabled_summary">ویژگی‌های تطبیقی بیکاری و نرخ فریم مخصوص دستگاه را برای بهبود بهره‌وری فعال می‌کند</string>
+</resources>

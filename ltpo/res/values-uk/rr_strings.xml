@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Налаштування LTPO</string>
+    <string name="ltpo_summary">Дозволяє панелі динамічно змінювати частоту оновлення</string>
+    <string name="ltpo_enabled_title">Увімкнути функції LTPO</string>
+    <string name="ltpo_enabled_summary">Вмикає специфічні для пристрою адаптивні функції простою та частоти кадрів для підвищення ефективності</string>
+</resources>

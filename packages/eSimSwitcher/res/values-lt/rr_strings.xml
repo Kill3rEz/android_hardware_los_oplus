@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="esim_toggle_dialog_ok">"Įgalinti"</string>
+    <string name="esim_toggle_dialog">Įjungus eSIM, SIM 2 bus išjungta. Vis tiek įjungti?</string>
 </resources>

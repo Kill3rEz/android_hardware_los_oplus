@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO პარამეტრები</string>
+    <string name="ltpo_summary">საშუალებას აძლევს პანელს დინამიურად დაარეგულიროს განახლების სიხშირე</string>
+    <string name="ltpo_enabled_title">LTPO ფუნქციების ჩართვა</string>
+    <string name="ltpo_enabled_summary">ჩართავს მოწყობილობისთვის სპეციფიკურ ადაპტურ უმოქმედო და კადრების სიხშირის ფუნქციებს ეფექტურობის გასაუმჯობესებლად</string>
+</resources>

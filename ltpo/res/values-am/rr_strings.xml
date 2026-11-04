@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">የLTPO ቅንብሮች</string>
+    <string name="ltpo_summary">ማሳያው የማደስ ፍጥነቱን በተለዋዋጭ እንዲያስተካክል ይፈቅዳል</string>
+    <string name="ltpo_enabled_title">የLTPO ባህሪያትን አንቃ</string>
+    <string name="ltpo_enabled_summary">ቅልጥፍናን ለማሻሻል በመሣሪያው ላይ የተመሠረተ የተላመደ የስራ ፈት እና የፍሬም ፍጥነት ባህሪያትን ያነቃል</string>
+</resources>

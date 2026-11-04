@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO સેટિંગ્સ</string>
+    <string name="ltpo_summary">પૅનલને રિફ્રેશ રેટ ગતિશીલ રીતે ગોઠવવાની મંજૂરી આપે છે</string>
+    <string name="ltpo_enabled_title">LTPO સુવિધાઓ ચાલુ કરો</string>
+    <string name="ltpo_enabled_summary">કાર્યક્ષમતા સુધારવા માટે ઉપકરણ-વિશિષ્ટ એડૅપ્ટિવ આઇડલ અને ફ્રેમ રેટ સુવિધાઓ સક્ષમ કરે છે</string>
+</resources>

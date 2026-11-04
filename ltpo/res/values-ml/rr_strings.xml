@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO ക്രമീകരണങ്ങൾ</string>
+    <string name="ltpo_summary">പാനലിന്റെ റിഫ്രഷ് റേറ്റ് ചലനാത്മകമായി ക്രമീകരിക്കാൻ അനുവദിക്കുന്നു</string>
+    <string name="ltpo_enabled_title">LTPO ഫീച്ചറുകൾ പ്രവർത്തനക്ഷമമാക്കുക</string>
+    <string name="ltpo_enabled_summary">കാര്യക്ഷമത മെച്ചപ്പെടുത്താൻ ഉപകരണത്തിന് പ്രത്യേകമായ അഡാപ്റ്റീവ് ഐഡിൽ, ഫ്രെയിം റേറ്റ് ഫീച്ചറുകൾ പ്രവർത്തനക്ഷമമാക്കുന്നു</string>
+</resources>

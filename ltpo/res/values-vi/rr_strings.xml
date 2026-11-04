@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Cài đặt LTPO</string>
+    <string name="ltpo_summary">Cho phép màn hình tự điều chỉnh tần số quét</string>
+    <string name="ltpo_enabled_title">Bật tính năng LTPO</string>
+    <string name="ltpo_enabled_summary">Bật các tính năng tần số quét và chế độ chờ thích ứng dành riêng cho thiết bị để tiết kiệm pin hiệu quả hơn</string>
+</resources>

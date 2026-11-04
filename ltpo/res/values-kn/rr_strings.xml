@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="ltpo_summary">ಪ್ಯಾನೆಲ್ ರಿಫ್ರೆಶ್ ದರವನ್ನು ಡೈನಾಮಿಕ್ ಆಗಿ ಹೊಂದಿಸಲು ಅನುಮತಿಸುತ್ತದೆ</string>
+    <string name="ltpo_enabled_title">LTPO ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="ltpo_enabled_summary">ಕಾರ್ಯಕ್ಷಮತೆ ಸುಧಾರಿಸಲು ಸಾಧನ-ನಿರ್ದಿಷ್ಟ ಅಡಾಪ್ಟಿವ್ ಐಡಲ್ ಮತ್ತು ಫ್ರೇಮ್ ರೇಟ್ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO ਸੈਟਿੰਗਾਂ</string>
+    <string name="ltpo_summary">ਪੈਨਲ ਨੂੰ ਰਿਫ੍ਰੈਸ਼ ਰੇਟ ਆਪਣੇ ਆਪ ਬਦਲਣ ਦਿੰਦਾ ਹੈ</string>
+    <string name="ltpo_enabled_title">LTPO ਫੀਚਰ ਚਾਲੂ ਕਰੋ</string>
+    <string name="ltpo_enabled_summary">ਡਿਵਾਈਸ-ਖਾਸ ਅਡੈਪਟਿਵ ਆਈਡਲ ਅਤੇ ਫਰੇਮ ਰੇਟ ਫੀਚਰ ਚਾਲੂ ਕਰਦਾ ਹੈ ਤਾਂ ਜੋ ਕੁਸ਼ਲਤਾ ਵਧੇ</string>
+</resources>

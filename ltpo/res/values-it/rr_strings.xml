@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Impostazioni LTPO</string>
+    <string name="ltpo_summary">Consente al pannello di regolare dinamicamente la frequenza di aggiornamento</string>
+    <string name="ltpo_enabled_title">Attiva funzioni LTPO</string>
+    <string name="ltpo_enabled_summary">Attiva le funzioni adattive di frequenza di aggiornamento e inattività specifiche del dispositivo per migliorare l\'efficienza</string>
+</resources>

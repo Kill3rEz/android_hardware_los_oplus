@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO සැකසීම්</string>
+    <string name="ltpo_summary">පැනලයට අනුවර්තීව නැවුම් කීමේ වේගය වෙනස් කිරීමට ඉඩ දෙයි</string>
+    <string name="ltpo_enabled_title">LTPO විශේෂාංග සක්‍රීය කරන්න</string>
+    <string name="ltpo_enabled_summary">කාර්යක්ෂමතාව වැඩි කිරීම සඳහා උපාංග-විශේෂිත අනුවර්තී අක්‍රිය සහ රාමු වේග විශේෂාංග සක්‍රීය කරයි</string>
+</resources>

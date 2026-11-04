@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO nustatymai</string>
+    <string name="ltpo_summary">Leidžia ekranui dinamiškai keisti atnaujinimo dažnį</string>
+    <string name="ltpo_enabled_title">Įgalinti LTPO funkcijas</string>
+    <string name="ltpo_enabled_summary">Įgalina įrenginiui skirtas adaptyvias laukimo ir kadrų dažnio funkcijas, kad būtų pagerintas efektyvumas</string>
+</resources>

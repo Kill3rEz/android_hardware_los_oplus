@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO-inställningar</string>
+    <string name="ltpo_summary">Låter skärmen dynamiskt justera uppdateringsfrekvensen</string>
+    <string name="ltpo_enabled_title">Aktivera LTPO-funktioner</string>
+    <string name="ltpo_enabled_summary">Aktiverar enhetsspecifika adaptiva funktioner för viloläge och bildfrekvens för bättre effektivitet</string>
+</resources>

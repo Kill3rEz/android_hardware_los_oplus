@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Postavke LTPO-a</string>
+    <string name="ltpo_summary">Omogućuje panelu dinamičko prilagođavanje brzine osvježavanja</string>
+    <string name="ltpo_enabled_title">Omogući značajke LTPO-a</string>
+    <string name="ltpo_enabled_summary">Omogućuje značajke prilagodljivog mirovanja i brzine okvira specifične za uređaj radi veće učinkovitosti</string>
+</resources>

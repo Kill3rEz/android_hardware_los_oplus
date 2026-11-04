@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO ayarları</string>
+    <string name="ltpo_summary">Panelin yenileme hızını dinamik olarak ayarlamasına izin verir</string>
+    <string name="ltpo_enabled_title">LTPO özelliklerini etkinleştir</string>
+    <string name="ltpo_enabled_summary">Verimliliği artırmak için cihaza özgü uyarlanabilir boşta ve kare hızı özelliklerini etkinleştirir</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO ဆက်တင်များ</string>
+    <string name="ltpo_summary">ဖန်သားပြင် refresh rate ကို အလိုအလျောက် ချိန်ညှိခွင့်ပြုသည်</string>
+    <string name="ltpo_enabled_title">LTPO အင်္ဂါရပ်များကို ဖွင့်ရန်</string>
+    <string name="ltpo_enabled_summary">စွမ်းဆောင်ရည်တိုးတက်စေရန် စက်ပစ္စည်းအတွက် သီးသန့် အလိုအလျောက်ချိန်ညှိ idle နှင့် frame rate အင်္ဂါရပ်များကို ဖွင့်သည်</string>
+</resources>

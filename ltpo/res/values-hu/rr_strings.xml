@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO-beállítások</string>
+    <string name="ltpo_summary">Lehetővé teszi, hogy a kijelző dinamikusan módosítsa a frissítési gyakoriságát</string>
+    <string name="ltpo_enabled_title">LTPO-funkciók engedélyezése</string>
+    <string name="ltpo_enabled_summary">Eszközspecifikus adaptív tétlen- és képkockasebesség-funkciók engedélyezése a hatékonyság javítása érdekében</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">Mipangilio ya LTPO</string>
+    <string name="ltpo_summary">Inaruhusu skrini kurekebisha kiwango cha kuonyesha upya kwa nguvu</string>
+    <string name="ltpo_enabled_title">Washa vipengele vya LTPO</string>
+    <string name="ltpo_enabled_summary">Huwasha vipengele vya kipekee vya kifaa vya kurekebisha hali ya kusubiri na kiwango cha fremu ili kuboresha ufanisi</string>
+</resources>

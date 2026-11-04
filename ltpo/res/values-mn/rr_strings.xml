@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO тохиргоо</string>
+    <string name="ltpo_summary">Дэлгэцэд шинэчлэх давтамжийг автоматаар тохируулахыг зөвшөөрнө</string>
+    <string name="ltpo_enabled_title">LTPO онцлогийг идэвхжүүлэх</string>
+    <string name="ltpo_enabled_summary">Үр ашгийг сайжруулахын тулд төхөөрөмжид зориулсан дасан зохицох бэлэн горим болон хүрээний давтамжийн онцлогийг идэвхжүүлнэ</string>
+</resources>

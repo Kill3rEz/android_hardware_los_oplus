@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ltpo_title">LTPO 设置</string>
+    <string name="ltpo_summary">允许面板动态调整刷新率</string>
+    <string name="ltpo_enabled_title">启用 LTPO 功能</string>
+    <string name="ltpo_enabled_summary">启用特定于设备的自适应空闲和帧率功能，以提高效率</string>
+</resources>
