@@ -7,11 +7,18 @@
 
 #include <aidl/vendor/oplus/hardware/radio/BnOplusRadioResponse.h>
 
+#include <chrono>
+#include <condition_variable>
+#include <mutex>
+#include <optional>
+
 namespace aidl::vendor::oplus::hardware::radio {
 
 class OplusRadioResponse : public BnOplusRadioResponse {
   public:
-    explicit OplusRadioResponse(int32_t& result);
+    void resetNrModeResult();
+    std::optional<int32_t> waitForNrModeResult(std::chrono::seconds timeout);
+
     ndk::ScopedAStatus setCallbackExtResponse() override;
     ndk::ScopedAStatus setNrModeResponse(const OplusRadioResponseInfo& info,
                                          int32_t result) override;
@@ -82,7 +89,9 @@ class OplusRadioResponse : public BnOplusRadioResponse {
             const OplusRadioResponseInfo& info, const std::vector<int32_t>& retryCount) override;
 
   private:
-    int32_t& result_;
+    std::mutex mutex_;
+    std::condition_variable cv_;
+    std::optional<int32_t> nr_mode_result_;
 };
 
 };  // namespace aidl::vendor::oplus::hardware::radio

@@ -34,6 +34,7 @@ constexpr auto kPropertyDefaultAutoNrMode = "ro.vendor.radio.auto_nr_mode";
 constexpr auto kIRadioAidlServiceName = "vendor.oplus.hardware.radio.IRadioStable/OplusRadio";
 constexpr auto kMaxSimSlot = 2;
 constexpr auto kOplusRilSerial = 1001;
+constexpr auto kNrModeResponseTimeout = 5s;
 
 OplusNrMode GetDefaultAutoNrMode() {
     auto mode = GetIntProperty(kPropertyDefaultAutoNrMode, static_cast<int>(kDefaultAutoNrMode));
@@ -66,14 +67,17 @@ int main() {
             continue;
         }
 
-        int32_t result = 0;
-        auto resp_cb = ndk::SharedRefBase::make<OplusRadioResponse>(result);
+        auto resp_cb = ndk::SharedRefBase::make<OplusRadioResponse>();
         radio->setCallback(resp_cb, nullptr);
 
         bool succeed = false;
         for (auto retry = 100; retry > 0; --retry) {
-            auto status = radio->setNrMode(kOplusRilSerial, mode);
-            if (!status.isOk() || result != 0) {
+            resp_cb->resetNrModeResult();
+            std::optional<int32_t> result;
+            if (radio->setNrMode(kOplusRilSerial, mode).isOk()) {
+                result = resp_cb->waitForNrModeResult(kNrModeResponseTimeout);
+            }
+            if (!result || *result != 0) {
                 LOG(ERROR) << "setNrMode failed for SIM" << i
                            << ", (remaining retries: " << retry - 1 << ")";
                 std::this_thread::sleep_for(1s);

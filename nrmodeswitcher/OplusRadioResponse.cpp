@@ -7,7 +7,16 @@
 
 namespace aidl::vendor::oplus::hardware::radio {
 
-OplusRadioResponse::OplusRadioResponse(int32_t& result) : result_(result) {}
+void OplusRadioResponse::resetNrModeResult() {
+    std::lock_guard lock(mutex_);
+    nr_mode_result_.reset();
+}
+
+std::optional<int32_t> OplusRadioResponse::waitForNrModeResult(std::chrono::seconds timeout) {
+    std::unique_lock lock(mutex_);
+    cv_.wait_for(lock, timeout, [this] { return nr_mode_result_.has_value(); });
+    return nr_mode_result_;
+}
 
 ndk::ScopedAStatus OplusRadioResponse::setCallbackExtResponse() {
     return ndk::ScopedAStatus::ok();
@@ -15,7 +24,11 @@ ndk::ScopedAStatus OplusRadioResponse::setCallbackExtResponse() {
 
 ndk::ScopedAStatus OplusRadioResponse::setNrModeResponse(const OplusRadioResponseInfo& info,
                                                          int32_t result) {
-    result_ = result;
+    {
+        std::lock_guard lock(mutex_);
+        nr_mode_result_ = result;
+    }
+    cv_.notify_all();
     return ndk::ScopedAStatus::ok();
 }
 
