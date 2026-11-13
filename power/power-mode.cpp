@@ -14,10 +14,19 @@
 
 #include <cerrno>
 #include <cstdlib>
+#include <iterator>
+#include <mutex>
 
 using aidl::android::hardware::power::Mode;
 using aidl::vendor::oplus::hardware::charger::ICharger;
 using aidl::vendor::oplus::hardware::touch::IOplusTouch;
+
+#ifndef LIBPERFMGR_EXT
+// vendor/qcom/opensource/power/utils.h
+extern "C" int interaction_with_handle(int lock_handle, int duration, int num_args,
+                                       int opt_list[]);
+extern "C" void release_request(int lock_handle);
+#endif
 
 #ifdef LIBPERFMGR_EXT
 namespace aidl::google::hardware::power::impl::pixel {
@@ -25,10 +34,50 @@ namespace aidl::google::hardware::power::impl::pixel {
 namespace aidl::android::hardware::power::impl {
 #endif
 
+#ifndef LIBPERFMGR_EXT
+namespace {
+
+// Battery saver caps for canoe: salami's LOW_POWER share of each cluster's top
+// step (59% big, 39% prime). perfd takes MHz and rounds up to the next step.
+int sLowPowerCaps[] = {
+        0x40804000, 2112,  // cluster 0 (policy0) max: 2112000 of 3628800 kHz
+        0x40804200, 1747,  // cluster 2 (policy6) max: 1747200 of 4608000 kHz
+        0x42808000, 6,     // kgsl max_pwrlevel: 726 of 1200 MHz (578/826 on other bins)
+};
+
+std::mutex sLowPowerLock;
+int sLowPowerHandle = 0;
+
+void setLowPower(bool enabled) {
+    std::lock_guard<std::mutex> lock(sLowPowerLock);
+    if (enabled == (sLowPowerHandle > 0)) return;
+
+    if (enabled) {
+        const int handle = interaction_with_handle(
+                0, 0, static_cast<int>(std::size(sLowPowerCaps)), sLowPowerCaps);
+        if (handle > 0) {
+            sLowPowerHandle = handle;
+        } else {
+            LOG(ERROR) << "Failed to cap clocks for battery saver";
+        }
+    } else {
+        release_request(sLowPowerHandle);
+        sLowPowerHandle = 0;
+    }
+}
+
+}  // namespace
+#endif
+
 bool isDeviceSpecificModeSupported(Mode type, bool* _aidl_return) {
     switch (type) {
 #ifndef TAP_TO_WAKE_NODE
         case Mode::DOUBLE_TAP_TO_WAKE:
+            *_aidl_return = true;
+            return true;
+#endif
+#ifndef LIBPERFMGR_EXT
+        case Mode::LOW_POWER:
             *_aidl_return = true;
             return true;
 #endif
@@ -85,6 +134,11 @@ bool setDeviceSpecificMode(Mode type, bool enabled) {
                                            std::to_string(contents), &aidl_return);
             return true;
         }
+#endif
+#ifndef LIBPERFMGR_EXT
+        case Mode::LOW_POWER:
+            setLowPower(enabled);
+            return true;
 #endif
         case Mode::INTERACTIVE: {
             const std::string instance = std::string() + ICharger::descriptor + "/default";
