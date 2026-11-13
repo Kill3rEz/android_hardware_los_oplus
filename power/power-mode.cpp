@@ -9,10 +9,15 @@
 
 #include <android-base/logging.h>
 #include <android/binder_manager.h>
+#include <fcntl.h>
+#include <hardware/power.h>
+#include <unistd.h>
 
 #include <OplusTouchConstants.h>
 
+#include <algorithm>
 #include <cerrno>
+#include <chrono>
 #include <cstdlib>
 #include <iterator>
 #include <mutex>
@@ -26,6 +31,74 @@ using aidl::vendor::oplus::hardware::touch::IOplusTouch;
 extern "C" int interaction_with_handle(int lock_handle, int duration, int num_args,
                                        int opt_list[]);
 extern "C" void release_request(int lock_handle);
+// vendor/qcom/opensource/power/power-common.c
+extern "C" int process_boost(int hint_id, int duration, int type);
+extern "C" bool release_boost(int boost_handle);
+
+namespace {
+
+// power-common.c holds VENDOR_HINT_SCROLL_BOOST for at least 1 s per touch
+// when the display has no idle_state node to end it early, and canoe has none.
+// Same boost and 250 ms re-arm, with a 400 ms floor.
+constexpr int kScrollBoostHint = 0x00001080;  // VENDOR_HINT_SCROLL_BOOST
+constexpr int kScrollVertical = 1;            // SCROLL_VERTICAL
+constexpr int kMinInteractionMs = 400;
+constexpr int kMaxInteractionMs = 5000;
+constexpr auto kInteractionRearm = std::chrono::milliseconds(250);
+
+std::mutex sInteractionLock;
+std::chrono::steady_clock::time_point sLastInteraction;
+int sLastInteractionMs = 0;
+int sInteractionHandle = -1;
+
+// The HAL's fb_idle_paths: if one opens, its own idle-release path is running.
+bool hasDisplayIdleNode() {
+    for (const char* path :
+         {"/sys/class/drm/card0/device/idle_state", "/sys/class/graphics/fb0/idle_state"}) {
+        const int fd = open(path, O_RDONLY | O_CLOEXEC);
+        if (fd >= 0) {
+            close(fd);
+            return true;
+        }
+    }
+    return false;
+}
+
+void interactionBoost(const int* data) {
+    int duration = kMinInteractionMs;
+    if (data && *data > duration) {
+        duration = std::min(*data, kMaxInteractionMs);
+    }
+
+    std::lock_guard<std::mutex> lock(sInteractionLock);
+    const auto now = std::chrono::steady_clock::now();
+    const auto elapsed = now - sLastInteraction;
+    if (elapsed < kInteractionRearm && duration <= kMinInteractionMs) {
+        return;
+    }
+    if (duration <= sLastInteractionMs &&
+        elapsed <= std::chrono::milliseconds(sLastInteractionMs - duration)) {
+        return;
+    }
+
+    sLastInteraction = now;
+    sLastInteractionMs = duration;
+    const int handle = process_boost(kScrollBoostHint, duration, kScrollVertical);
+    release_boost(sInteractionHandle);
+    sInteractionHandle = handle;
+}
+
+}  // namespace
+
+// Replaces power-common.c's weak hook.
+extern "C" int power_hint_override(power_hint_t hint, void* data) {
+    static const bool idleNode = hasDisplayIdleNode();
+    if (hint != POWER_HINT_INTERACTION || idleNode) {
+        return -1;  // HINT_NONE
+    }
+    interactionBoost(static_cast<const int*>(data));
+    return 0;  // HINT_HANDLED
+}
 #endif
 
 #ifdef LIBPERFMGR_EXT
